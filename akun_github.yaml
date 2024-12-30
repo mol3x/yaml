@@ -1,6 +1,6 @@
 proxies:
 - name: AKUN-GITNEWaryo
-  server: vidio2.xtls.my.id
+  server: quiz.int.vidio.com
   port: 443
   type: trojan
   password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
