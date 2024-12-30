@@ -1,6 +1,6 @@
 proxies:
-- name: AKUN-GITNEWaryo
-  server: quiz.int.vidio.com
+- name: AKUN-GITHUB
+  server: vidio.xtls
   port: 443
   type: trojan
   password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
