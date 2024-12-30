@@ -1,5 +1,5 @@
 proxies:
-- name: AKUN-GITNEWaryo
+- name: AKUN-GITNEW
   server: vidio.xtls.my.id
   port: 443
   type: trojan
