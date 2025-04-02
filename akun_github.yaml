@@ -1,14 +1,29 @@
 proxies:
-- name: Nyoba Euy
-  server: vidio.xtls.my.id
+- name: Nyoba euy
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: e506e91d-be9c-45b6-bf7c-4c7e37cae442
+  tls: true
+  servername: nautica.foolvpn.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /103.6.207.108-8080
+    headaers:
+      Host: nautica.foolvpn.me
+    udp: true
+
+- name: Nyoba ey kedua
+  server: quiz.int.vidio.com
   port: 443
   type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
+  password: e506e91d-be9c-45b6-bf7c-4c7e37cae442
+  tls: true
+  servername: nautica.foolvpn.me
   network: ws
-  sni: nusa.lowh.site
-  skip-cert-verify: true
-  udp: true
   ws-opts:
-    path: "/trojan"
-    headers:
-      Host: nusa.lowh.site
+    path: /203.194.112.119-8443
+    headaers:
+      Host: nautica.foolvpn.me
+  udp: true
