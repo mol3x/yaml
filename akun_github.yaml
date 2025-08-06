@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: ava.game.naver.com.id.bodongvl.filegear-sg.me
   udp: true  
-
+:
 - name: 🇸🇬-[SG]=1🦊
   server: ava.game.naver.com
   port: 443
