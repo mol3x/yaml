@@ -15,3 +15,679 @@ proxies:
     headers:
       Host: ava.game.naver.com.id.bodongvl.filegear-sg.me
   udp: true  
+
+- name: 🇸🇬-[SG]=1🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG1
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=1🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG1
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=1🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG1
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=2🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG2
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=2🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG2
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=2🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG2
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=3🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG3
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=3🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG3
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=3🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG3
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=4🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG4
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=4🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG4
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=4🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG4
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=5🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG5
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=5🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG5
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=5🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG5
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=6🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG6
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=6🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG6
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=6🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG6
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=7🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG7
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=7🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG7
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=7🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG7
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=8🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG8
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=8🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG8
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=8🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG8
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=9🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG9
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=9🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG9
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=9🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG9
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=10🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG10
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=10🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG10
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=10🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG10
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=11🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG11
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=11🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG11
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=11🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG11
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=12🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG12
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=12🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG12
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=12🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG12
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=13🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG13
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=13🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG13
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=13🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG13
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=14🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG14
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=14🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG14
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=14🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG14
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=15🦊
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG15
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=15🔐
+  server: ava.game.naver.com
+  port: 443
+  type: trojan
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: ava.game.naver.com.web.ndeso.web.id
+  ws-opts:
+    path: /Free-CF-Proxy-SG15
+    headers:
+      Host: ava.game.naver.com.web.ndeso.web.id
+- name: 🇸🇬-[SG]=15🛡️
+  type: ss
+  server: ava.game.naver.com
+  port: 443
+  cipher: none
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: ava.game.naver.com.web.ndeso.web.id
+    path: /Free-CF-Proxy-SG15
+    mux: false
+    headers:
+      custom: ava.game.naver.com.web.ndeso.web.id
