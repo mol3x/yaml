@@ -1,693 +1,196 @@
 proxies:
-
-- name: VLESS-XCL
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: dfc3ad71-4ab8-424e-b5f7-965d18153ccb
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.id.bodongvl.filegear-sg.me
-  network: ws
-  ws-opts:
-    path: /vless-bodong
-    headers:
-      Host: ava.game.naver.com.id.bodongvl.filegear-sg.me
-  udp: true  
-  
-- name: 🇸🇬-[SG]=1🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG1
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=1🔐
+- name: 🇮🇩 (ID) CV. Rumahweb Indonesia 1
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: e21fe83d-4dd7-4845-94cb-974d2ecb0fa2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG1
+    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=1🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG1
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=2🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG2
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=2🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) CV. Rumahweb Indonesia 2
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: f0a51af6-8c89-422c-aac9-105221eb3952
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG2
+    path: /Free-VPN-CF-Geo-Project/203.194.112.119=8443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=2🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG2
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=3🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG3
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=3🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) PT Telekomunikasi Indonesia 3
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 86d84d89-9be1-48e0-9937-44c391f3f9b0
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG3
+    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=3🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG3
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=4🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG4
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=4🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazon.com 4
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: bcaae12d-3830-4e6c-a53e-2a8c9af0595a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG4
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=4🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG4
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=5🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG5
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=5🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazon.com 5
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 7d6a4a54-fa7d-4227-a93a-64ef879a279d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG5
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=5🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG5
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=6🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG6
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=6🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazoncom 6
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 39125041-74a8-4a1d-8f45-3f33400e08bb
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG6
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=6🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG6
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=7🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG7
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=7🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazoncom 7
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: d1c27f8f-1d59-4517-bf87-899c5e1df9c8
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG7
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=7🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG7
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=8🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG8
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=8🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: abebcbf3-bc95-4c84-baf6-2a765446e567
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG8
+    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=8🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG8
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=9🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG9
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=9🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) PT Telkom Indonesia 9
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 49895fb8-12cf-4592-a3cc-9a1322dc64fa
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG9
+    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=9🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG9
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=10🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG10
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=10🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) PT Telekomunikasi Indonesia 10
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: e024021d-6335-4a93-acc4-aeb7aa61e29f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG10
+    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=10🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG10
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=11🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG11
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=11🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazoncom Inc 11
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 7a479eba-56f6-4b6b-acda-c706918b7b2c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG11
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=11🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG11
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=12🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG12
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=12🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) Amazoncom Inc 12
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 9684d222-e71c-421a-8754-c727753de707
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG12
+    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=12🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG12
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=13🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG13
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=13🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) CV Rumahweb Indonesia 13
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: edb957bb-2b62-4910-ba94-5f658db022b7
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG13
+    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=13🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG13
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=14🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG14
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=14🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) CV Rumahweb Indonesia 14
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 5331e1b1-ae41-479f-88a2-200686965a6c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG14
+    path: /Free-VPN-CF-Geo-Project/203.194.112.119=8443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=14🛡️
-  type: ss
-  server: 104.20.46.147
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG14
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=15🦊
-  server: 104.20.46.147
-  port: 443
-  type: vless
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  servername: ava.game.naver.com.web.ndeso.web.id
-  ws-opts:
-    path: /Free-CF-Proxy-SG15
-    headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=15🔐
+      Host: 104.20.46.147.joss.krikkrik.tech
+- name: 🇮🇩 (ID) 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940 Indonesia 15
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  password: 18fef5c3-e7d3-4afb-8be1-ef323c62f84f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: ava.game.naver.com.web.ndeso.web.id
+  sni: 104.20.46.147.joss.krikkrik.tech
   ws-opts:
-    path: /Free-CF-Proxy-SG15
+    path: /Free-VPN-CF-Geo-Project/149.129.250.8=443
     headers:
-      Host: ava.game.naver.com.web.ndeso.web.id
-- name: 🇸🇬-[SG]=15🛡️
-  type: ss
-  server: 104.20.46.147 
-  port: 443
-  cipher: none
-  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  udp: true
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    skip-cert-verify: true
-    host: ava.game.naver.com.web.ndeso.web.id
-    path: /Free-CF-Proxy-SG15
-    mux: false
-    headers:
-      custom: ava.game.naver.com.web.ndeso.web.id
+      Host: 104.20.46.147.joss.krikkrik.tech
