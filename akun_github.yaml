@@ -194,3 +194,135 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/149.129.250.8=443
     headers:
       Host: 104.20.46.147.joss.krikkrik.tech
+
+- name: 🇸🇬 (SG) 28 Kallang Place # 05-08 Singapore 339518 1
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 61671ab2-15b7-4e95-94a3-6a37c9b98a10
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/103.195.191.55=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) DigitalOcean 2
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 6808cb35-c247-430e-8926-2980bdfbd998
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/104.248.145.216=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) 16 COLLYER QUAY 3
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 5cb04335-b7d2-4667-ad37-54b3c893e353
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/124.156.202.172=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Oracle Corporation 4
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: d97f899b-638b-4a41-8d73-590d351743e7
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/129.150.36.188=53435
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Oracle Corporation 5
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 1460f1ea-c1e8-4345-b4a9-1918572f1dfd
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/129.150.49.58=18650
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Oracle Corporation 6
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 6079a03b-a3ea-4419-b80b-e2055df47968
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/129.150.58.86=57621
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) 6 COLLYER QUAY 7
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: f56366a4-38b9-4c89-9a0b-579d018f0e96
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/129.226.150.167=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Amazon Data Services Singapore 8
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: ff14087e-eb1f-48c3-92a3-7e34165bca7b
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/13.250.131.37=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Amazon Data Services Singapore 9
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: 89b46edf-a661-45ba-8a9b-6b4116729c0c
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/13.250.14.76=443
+    headers:
+      Host: joss.krikkrik.tech
+- name: 🇸🇬 (SG) Oracle Corporation 10
+  server: 104.20.46.147
+  port: 443
+  type: trojan
+  password: dd8b2ee3-1eaa-40d0-9f83-bd8f2ab9c23d
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: joss.krikkrik.tech
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/138.2.64.229=443
+    headers:
+      Host: joss.krikkrik.tech
+
