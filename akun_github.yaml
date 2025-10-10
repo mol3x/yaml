@@ -1,328 +1,47 @@
 proxies:
-- name: 🇮🇩 (ID) CV. Rumahweb Indonesia 1
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: e21fe83d-4dd7-4845-94cb-974d2ecb0fa2
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) CV. Rumahweb Indonesia 2
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: f0a51af6-8c89-422c-aac9-105221eb3952
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/203.194.112.119=8443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) PT Telekomunikasi Indonesia 3
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 86d84d89-9be1-48e0-9937-44c391f3f9b0
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazon.com 4
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: bcaae12d-3830-4e6c-a53e-2a8c9af0595a
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazon.com 5
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 7d6a4a54-fa7d-4227-a93a-64ef879a279d
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazoncom 6
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 39125041-74a8-4a1d-8f45-3f33400e08bb
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazoncom 7
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: d1c27f8f-1d59-4517-bf87-899c5e1df9c8
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: abebcbf3-bc95-4c84-baf6-2a765446e567
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) PT Telkom Indonesia 9
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 49895fb8-12cf-4592-a3cc-9a1322dc64fa
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) PT Telekomunikasi Indonesia 10
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: e024021d-6335-4a93-acc4-aeb7aa61e29f
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazoncom Inc 11
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 7a479eba-56f6-4b6b-acda-c706918b7b2c
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=1443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) Amazoncom Inc 12
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 9684d222-e71c-421a-8754-c727753de707
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/43.218.77.16=443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) CV Rumahweb Indonesia 13
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: edb957bb-2b62-4910-ba94-5f658db022b7
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/203.194.112.119=2053
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) CV Rumahweb Indonesia 14
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 5331e1b1-ae41-479f-88a2-200686965a6c
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/203.194.112.119=8443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
-- name: 🇮🇩 (ID) 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940 Indonesia 15
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 18fef5c3-e7d3-4afb-8be1-ef323c62f84f
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: 104.20.46.147.joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/149.129.250.8=443
-    headers:
-      Host: 104.20.46.147.joss.krikkrik.tech
 
-- name: 🇸🇬 (SG) 28 Kallang Place # 05-08 Singapore 339518 1
+- name: Xio DID-PTPusatMediaIndonesia
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: 61671ab2-15b7-4e95-94a3-6a37c9b98a10
-  udp: true
-  skip-cert-verify: true
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  tls: true
+  servername: quiz.int.vidio.com.free.gegegeming.my.id
   network: ws
-  sni: joss.krikkrik.tech
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/103.195.191.55=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) DigitalOcean 2
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    headaers:
+      Host: quiz.int.vidio.com.free.gegegeming.my.id
+  udp: true
+
+
+- name: Xio DID-Amazon.com
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: 6808cb35-c247-430e-8926-2980bdfbd998
-  udp: true
-  skip-cert-verify: true
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  tls: true
+  servername: quiz.int.vidio.com.free.xiongt.biz.id
   network: ws
-  sni: joss.krikkrik.tech
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/104.248.145.216=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) 16 COLLYER QUAY 3
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    headaers:
+      Host: quiz.int.vidio.com.free.xiongt.biz.id
+  udp: true
+
+
+- name: Xio DID-GOLDIPLLCFZ
   server: 104.20.46.147
   port: 443
   type: trojan
-  password: 5cb04335-b7d2-4667-ad37-54b3c893e353
-  udp: true
-  skip-cert-verify: true
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  tls: true
+  servername: quiz.int.vidio.com.free.xiongt.my.id
   network: ws
-  sni: joss.krikkrik.tech
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/124.156.202.172=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Oracle Corporation 4
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: d97f899b-638b-4a41-8d73-590d351743e7
+    path: /Free/TG-at-XionAlva/31.56.196.240-2053
+    headaers:
+      Host: quiz.int.vidio.com.free.xiongt.my.id
   udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/129.150.36.188=53435
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Oracle Corporation 5
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 1460f1ea-c1e8-4345-b4a9-1918572f1dfd
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/129.150.49.58=18650
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Oracle Corporation 6
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 6079a03b-a3ea-4419-b80b-e2055df47968
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/129.150.58.86=57621
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) 6 COLLYER QUAY 7
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: f56366a4-38b9-4c89-9a0b-579d018f0e96
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/129.226.150.167=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Amazon Data Services Singapore 8
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: ff14087e-eb1f-48c3-92a3-7e34165bca7b
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/13.250.131.37=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Amazon Data Services Singapore 9
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: 89b46edf-a661-45ba-8a9b-6b4116729c0c
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/13.250.14.76=443
-    headers:
-      Host: joss.krikkrik.tech
-- name: 🇸🇬 (SG) Oracle Corporation 10
-  server: 104.20.46.147
-  port: 443
-  type: trojan
-  password: dd8b2ee3-1eaa-40d0-9f83-bd8f2ab9c23d
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  sni: joss.krikkrik.tech
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/138.2.64.229=443
-    headers:
-      Host: joss.krikkrik.tech
+      
 
